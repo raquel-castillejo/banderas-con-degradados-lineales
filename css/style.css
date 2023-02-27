@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(40 40 40);
+    margin: 2rem;
+}
+
+h1 {
+    color: rgb(230 230 230);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.flags {
+    width: calc(270px * 3 + 8rem);
+    margin: 2rem auto;
+}
+
+.flag {
+    display: inline-block;
+    width: 270px;
+    height: 180px;
+
+    /* fondo de color para tener como referencia */
+    /* background-color: #000; */
+
+    border: 2px #fff solid;
+    margin: 1rem;
+}
+
+.flag-1 {
+    background-image: 
+        linear-gradient(
+            rgb(199 41 35)  60px, 
+            rgb(12 54 154)  60px 120px, 
+            rgb(232 170 59) 120px
+        );
+}
+
+.flag-2 {
+    background-image: 
+        linear-gradient(
+            to right, 
+            black           90px, 
+            rgb(246 223 97) 90px 180px, 
+            rgb(218 63 65)  180px
+        );
+}
+
+.flag-3 {
+    background-image: 
+        linear-gradient(
+            rgb(128 169 215)    60px,
+            white               60px  70px, 
+            black               70px  110px, 
+            white               110px 120px, 
+            rgb(128 169 215)    120px
+        );
+}
+
+.flag-4 {
+    background-image: 
+        linear-gradient(
+            to right, 
+            rgb(58 132 86) 100px,
+            transparent      100px
+        ),
+        linear-gradient(
+            rgb(246 209 75) 90px,
+            rgb(213 50 55)  90px
+        );
+}
+
+.flag-5 {
+    background-image: 
+        linear-gradient(
+            138deg, 
+            rgb(65 146 76)      135px, 
+            rgb(247 221 102)    135px 180px, 
+            rgb(203 57 45)      180px
+        );
+}
+
+.flag-6 {
+    background-image: 
+        linear-gradient(
+            300deg,
+            transparent       235px,
+            rgb(21 64 130)  235px
+        ),
+        linear-gradient(
+            320deg,
+            transparent        175px,
+            rgb(247 216 108) 175px
+        ),
+        linear-gradient(
+            340deg,
+            transparent      94px,
+            rgb(197 58 50) 94px
+        ),
+        linear-gradient(
+            350deg,
+            transparent        48px,
+            rgb(255 255 255) 48px
+        ),
+        linear-gradient(
+            350deg,
+            transparent       0px,
+            rgb(52 119 67)  0px
+        );
+}
